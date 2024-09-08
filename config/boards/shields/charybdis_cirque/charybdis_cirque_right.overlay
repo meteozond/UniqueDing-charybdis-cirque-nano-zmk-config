@@ -30,7 +30,7 @@
 // };
 
 
-&pro_micro_spi {
+&nice_nano_spi {
 	compatible = "nordic,nrf-spim";
     status = "okay";
 
