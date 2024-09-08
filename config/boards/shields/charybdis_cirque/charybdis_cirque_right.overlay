@@ -40,6 +40,7 @@
     cs-gpios = <&gpio1 7 GPIO_ACTIVE_LOW>; // P0.24
 
     trackball: trackball@0 {
+        status = "okay";
         compatible = "pixart,pmw33xx";
         reg = <0>;
         label = "Pixart PMW3360";
