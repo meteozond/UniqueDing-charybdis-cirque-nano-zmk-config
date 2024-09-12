@@ -34,9 +34,9 @@
 	compatible = "nordic,nrf-spim";
     status = "okay";
 
-    miso-pin = <14>; // P1.11
-    mosi-pin = <16>; // P0.10
-    sck-pin = <15>; // P1.13
+    miso-pin = <24>; // P1.11
+    mosi-pin = <24>; // P0.10
+    sck-pin = <24>; // P1.13
     cs-gpios = <&gpio1 7 GPIO_ACTIVE_LOW>; // P1.07
 
     trackball: trackball@0 {
