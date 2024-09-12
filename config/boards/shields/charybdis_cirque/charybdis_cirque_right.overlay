@@ -41,7 +41,8 @@
 
     trackball: trackball@0 {
         status = "okay";
-        compatible = "pixart,pmw33xx";
+//        compatible = "pixart,pmw33xx";
+        compatible = "pixart,pmw3360";
         reg = <0>;
         label = "Pixart PMW3360";
         cs-gpios = <&gpio1 7 GPIO_ACTIVE_LOW>;  // P1.07
